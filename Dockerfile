@@ -17,8 +17,7 @@ COPY . .
 RUN npm run build
 
 # Set environment variables
-ENV PORT=3000
-ENV OPENAI_API_KEY=""
+ENV PORT=${PORT:-3000}
 
 # Expose the port the app runs on
 EXPOSE $PORT

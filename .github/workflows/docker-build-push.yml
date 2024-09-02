@@ -26,7 +26,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: yourdockerhubusername/open-custom-gpt:latest
+        tags: tarkilhk/open-custom-gpt:latest
         build-args: |
           PORT=${{ secrets.PORT }}
-          OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
