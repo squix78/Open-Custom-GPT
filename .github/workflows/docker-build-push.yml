@@ -29,3 +29,4 @@ jobs:
         tags: squix78/open-custom-gpt:latest
         build-args: |
           PORT=${{ secrets.PORT }}
+          
