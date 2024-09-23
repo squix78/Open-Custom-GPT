@@ -19,7 +19,7 @@ function Embed({ params: { assistantId } }) {
     intervalRef.current = runInterval
     const chatRef = useRef(null)
     chatRef.current = chat
- 
+  
     const refreshChat = () => {
         setChat((prev)=>[])
         setThread((prev)=>null)
