@@ -5,6 +5,12 @@ const nextConfig = {
 
         return config;
     },
+    logging: {
+        fetches: {
+          fullUrl: true,
+        },
+    },
+    output: 'standalone',
 }
 
 module.exports = nextConfig
